@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F1122EF1795126A00669944 /* DetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1122EE1795126A00669944 /* DetailCell.m */; };
+		0F1122F117951F9F00669944 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F1122F017951F9E00669944 /* libxml2.dylib */; };
+		0F1122F31795233600669944 /* head.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F1122F21795233300669944 /* head.png */; };
+		0F1122F517952B9D00669944 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F1122F417952B9C00669944 /* CoreText.framework */; };
+		0F1122F717952BBE00669944 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F1122F617952BBD00669944 /* CoreFoundation.framework */; };
+		0F1122FA1795310400669944 /* CreateControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1122F91795310400669944 /* CreateControl.m */; };
+		0F1122FD1795412C00669944 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1122FC1795412C00669944 /* DetailViewController.m */; };
 		0F28424F1794F76200B5A6B6 /* cell_accessory.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F2842301794F76200B5A6B6 /* cell_accessory.png */; };
 		0F2842501794F76200B5A6B6 /* cell_accessory@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F2842311794F76200B5A6B6 /* cell_accessory@2x.png */; };
 		0F2842511794F76200B5A6B6 /* cell_accessory_press.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F2842321794F76200B5A6B6 /* cell_accessory_press.png */; };
@@ -74,6 +81,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F1122ED1795126A00669944 /* DetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailCell.h; sourceTree = "<group>"; };
+		0F1122EE1795126A00669944 /* DetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailCell.m; sourceTree = "<group>"; };
+		0F1122F017951F9E00669944 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		0F1122F21795233300669944 /* head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = head.png; sourceTree = "<group>"; };
+		0F1122F417952B9C00669944 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		0F1122F617952BBD00669944 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		0F1122F81795310400669944 /* CreateControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateControl.h; sourceTree = "<group>"; };
+		0F1122F91795310400669944 /* CreateControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateControl.m; sourceTree = "<group>"; };
+		0F1122FB1795412C00669944 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		0F1122FC1795412C00669944 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		0F2842301794F76200B5A6B6 /* cell_accessory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cell_accessory.png; sourceTree = "<group>"; };
 		0F2842311794F76200B5A6B6 /* cell_accessory@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cell_accessory@2x.png"; sourceTree = "<group>"; };
 		0F2842321794F76200B5A6B6 /* cell_accessory_press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cell_accessory_press.png; sourceTree = "<group>"; };
@@ -171,6 +188,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F1122F717952BBE00669944 /* CoreFoundation.framework in Frameworks */,
+				0F1122F517952B9D00669944 /* CoreText.framework in Frameworks */,
+				0F1122F117951F9F00669944 /* libxml2.dylib in Frameworks */,
 				0FC04A401794E7D2006818F2 /* UIKit.framework in Frameworks */,
 				0FC04A421794E7D2006818F2 /* Foundation.framework in Frameworks */,
 				0FC04A441794E7D2006818F2 /* CoreGraphics.framework in Frameworks */,
@@ -180,6 +200,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F1122EB179511D900669944 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				0F1122ED1795126A00669944 /* DetailCell.h */,
+				0F1122EE1795126A00669944 /* DetailCell.m */,
+			);
+			name = Detail;
+			sourceTree = "<group>";
+		};
 		0F28422E1794F71A00B5A6B6 /* 素材 */ = {
 			isa = PBXGroup;
 			children = (
@@ -191,6 +220,7 @@
 		0F28422F1794F76200B5A6B6 /* 素材1 */ = {
 			isa = PBXGroup;
 			children = (
+				0F1122F21795233300669944 /* head.png */,
 				0F2842301794F76200B5A6B6 /* cell_accessory.png */,
 				0F2842311794F76200B5A6B6 /* cell_accessory@2x.png */,
 				0F2842321794F76200B5A6B6 /* cell_accessory_press.png */,
@@ -298,6 +328,8 @@
 				0F7D21E71794EED800578698 /* WeifengViewController.h */,
 				0F7D21E81794EED800578698 /* WeifengViewController.m */,
 				0F7D21E91794EED800578698 /* WeifengViewController.xib */,
+				0F1122FB1795412C00669944 /* DetailViewController.h */,
+				0F1122FC1795412C00669944 /* DetailViewController.m */,
 			);
 			name = "ViewController类";
 			sourceTree = "<group>";
@@ -305,6 +337,7 @@
 		0F2842AE1794F84B00B5A6B6 /* Uiview类 */ = {
 			isa = PBXGroup;
 			children = (
+				0F1122EB179511D900669944 /* Detail */,
 			);
 			name = "Uiview类";
 			sourceTree = "<group>";
@@ -319,6 +352,8 @@
 		0F2842B01794F88A00B5A6B6 /* Nsobjest类 */ = {
 			isa = PBXGroup;
 			children = (
+				0F1122F81795310400669944 /* CreateControl.h */,
+				0F1122F91795310400669944 /* CreateControl.m */,
 			);
 			name = "Nsobjest类";
 			sourceTree = "<group>";
@@ -326,6 +361,9 @@
 		0FC04A331794E7D2006818F2 = {
 			isa = PBXGroup;
 			children = (
+				0F1122F617952BBD00669944 /* CoreFoundation.framework */,
+				0F1122F417952B9C00669944 /* CoreText.framework */,
+				0F1122F017951F9E00669944 /* libxml2.dylib */,
 				0F2842B01794F88A00B5A6B6 /* Nsobjest类 */,
 				0F2842AF1794F86D00B5A6B6 /* TableView类 */,
 				0F2842AE1794F84B00B5A6B6 /* Uiview类 */,
@@ -468,6 +506,7 @@
 				0F28426B1794F76200B5A6B6 /* news_top_title_bg@2x.png in Resources */,
 				0F28426C1794F76200B5A6B6 /* no_network.png in Resources */,
 				0F28426D1794F76200B5A6B6 /* no_network@2x.png in Resources */,
+				0F1122F31795233600669944 /* head.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,6 +541,9 @@
 				0F2842AA1794F7D800B5A6B6 /* TagChunk.m in Sources */,
 				0F2842AB1794F7D800B5A6B6 /* TxtChunk.m in Sources */,
 				0F2842AC1794F7D800B5A6B6 /* URLParser.m in Sources */,
+				0F1122EF1795126A00669944 /* DetailCell.m in Sources */,
+				0F1122FA1795310400669944 /* CreateControl.m in Sources */,
+				0F1122FD1795412C00669944 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -587,6 +629,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Weifengnews/Weifengnews-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "Weifengnews/Weifengnews-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -598,6 +641,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Weifengnews/Weifengnews-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "Weifengnews/Weifengnews-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;

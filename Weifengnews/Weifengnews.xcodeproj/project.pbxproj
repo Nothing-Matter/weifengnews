@@ -361,8 +361,6 @@
 		0FC04A331794E7D2006818F2 = {
 			isa = PBXGroup;
 			children = (
-				0F1122F617952BBD00669944 /* CoreFoundation.framework */,
-				0F1122F417952B9C00669944 /* CoreText.framework */,
 				0F1122F017951F9E00669944 /* libxml2.dylib */,
 				0F2842B01794F88A00B5A6B6 /* Nsobjest类 */,
 				0F2842AF1794F86D00B5A6B6 /* TableView类 */,
@@ -387,6 +385,8 @@
 		0FC04A3E1794E7D2006818F2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0F1122F617952BBD00669944 /* CoreFoundation.framework */,
+				0F1122F417952B9C00669944 /* CoreText.framework */,
 				0FC04A3F1794E7D2006818F2 /* UIKit.framework */,
 				0FC04A411794E7D2006818F2 /* Foundation.framework */,
 				0FC04A431794E7D2006818F2 /* CoreGraphics.framework */,

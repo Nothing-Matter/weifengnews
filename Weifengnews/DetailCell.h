@@ -33,11 +33,7 @@
 
 @property (retain,nonatomic)UILabel *commentActive; // 显示热门
 
-@property (retain,nonatomic)UILabel *more_comment;// 更多评论
-
-@property (retain,nonatomic)UIButton *more_btnComment;// 显示更多评论的按钮
-
-@property (retain,nonatomic)UILabel *more_commentNumber;//显示更多评论的数量
-
 @property (retain,nonatomic)UILabel *goodOrBad;//显示顶踩的数量
+
+@property (retain,nonatomic)UIImageView * goodOrBadBlackgound; // 顶踩背景图片
 @end

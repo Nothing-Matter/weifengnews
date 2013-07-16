@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F7D21EA1794EED800578698 /* WeifengViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7D21E81794EED800578698 /* WeifengViewController.m */; };
+		0F7D21EB1794EED800578698 /* WeifengViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F7D21E91794EED800578698 /* WeifengViewController.xib */; };
 		0FC04A401794E7D2006818F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FC04A3F1794E7D2006818F2 /* UIKit.framework */; };
 		0FC04A421794E7D2006818F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FC04A411794E7D2006818F2 /* Foundation.framework */; };
 		0FC04A441794E7D2006818F2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FC04A431794E7D2006818F2 /* CoreGraphics.framework */; };
@@ -21,6 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F7D21E71794EED800578698 /* WeifengViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeifengViewController.h; sourceTree = "<group>"; };
+		0F7D21E81794EED800578698 /* WeifengViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeifengViewController.m; sourceTree = "<group>"; };
+		0F7D21E91794EED800578698 /* WeifengViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeifengViewController.xib; sourceTree = "<group>"; };
 		0FC04A3C1794E7D2006818F2 /* Weifengnews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weifengnews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FC04A3F1794E7D2006818F2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0FC04A411794E7D2006818F2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -89,6 +94,9 @@
 				0FC04A581794E7D2006818F2 /* ViewController.m */,
 				0FC04A5A1794E7D2006818F2 /* ViewController.xib */,
 				0FC04A461794E7D2006818F2 /* Supporting Files */,
+				0F7D21E71794EED800578698 /* WeifengViewController.h */,
+				0F7D21E81794EED800578698 /* WeifengViewController.m */,
+				0F7D21E91794EED800578698 /* WeifengViewController.xib */,
 			);
 			path = Weifengnews;
 			sourceTree = "<group>";
@@ -163,6 +171,7 @@
 				0FC04A541794E7D2006818F2 /* Default@2x.png in Resources */,
 				0FC04A561794E7D2006818F2 /* Default-568h@2x.png in Resources */,
 				0FC04A5C1794E7D2006818F2 /* ViewController.xib in Resources */,
+				0F7D21EB1794EED800578698 /* WeifengViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +185,7 @@
 				0FC04A4C1794E7D2006818F2 /* main.m in Sources */,
 				0FC04A501794E7D2006818F2 /* AppDelegate.m in Sources */,
 				0FC04A591794E7D2006818F2 /* ViewController.m in Sources */,
+				0F7D21EA1794EED800578698 /* WeifengViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +306,7 @@
 				0FC04A611794E7D2006818F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

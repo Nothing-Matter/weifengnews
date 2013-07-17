@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F17310E1796879400305358 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F17310D1796879400305358 /* MainView.m */; };
 		0F28424F1794F76200B5A6B6 /* cell_accessory.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F2842301794F76200B5A6B6 /* cell_accessory.png */; };
 		0F2842501794F76200B5A6B6 /* cell_accessory@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F2842311794F76200B5A6B6 /* cell_accessory@2x.png */; };
 		0F2842511794F76200B5A6B6 /* cell_accessory_press.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F2842321794F76200B5A6B6 /* cell_accessory_press.png */; };
@@ -74,6 +75,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F17310C1796879400305358 /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		0F17310D1796879400305358 /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
 		0F2842301794F76200B5A6B6 /* cell_accessory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cell_accessory.png; sourceTree = "<group>"; };
 		0F2842311794F76200B5A6B6 /* cell_accessory@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cell_accessory@2x.png"; sourceTree = "<group>"; };
 		0F2842321794F76200B5A6B6 /* cell_accessory_press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cell_accessory_press.png; sourceTree = "<group>"; };
@@ -305,6 +308,8 @@
 		0F2842AE1794F84B00B5A6B6 /* Uiview类 */ = {
 			isa = PBXGroup;
 			children = (
+				0F17310C1796879400305358 /* MainView.h */,
+				0F17310D1796879400305358 /* MainView.m */,
 			);
 			name = "Uiview类";
 			sourceTree = "<group>";
@@ -502,6 +507,7 @@
 				0F2842AA1794F7D800B5A6B6 /* TagChunk.m in Sources */,
 				0F2842AB1794F7D800B5A6B6 /* TxtChunk.m in Sources */,
 				0F2842AC1794F7D800B5A6B6 /* URLParser.m in Sources */,
+				0F17310E1796879400305358 /* MainView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,6 +10,8 @@
 
 #import "ViewController.h"
 
+#import "DetailViewController.h"
+
 @implementation AppDelegate
 
 - (void)dealloc
@@ -23,8 +25,11 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
-    self.viewController = [[[ViewController alloc] initWithNibName:@"ViewController" bundle:nil] autorelease];
-    self.window.rootViewController = self.viewController;
+    //self.viewController = [[[ViewController alloc] initWithNibName:@"ViewController" bundle:nil] autorelease];
+   // self.window.rootViewController = self.viewController;
+    DetailViewController * dvc = [[DetailViewController alloc]init];
+    self.window.rootViewController = dvc;
+    [dvc release];
     [self.window makeKeyAndVisible];
     return YES;
 }

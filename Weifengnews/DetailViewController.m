@@ -2,12 +2,12 @@
 //  DetailViewController.m
 //  Weifengnews
 //
-//  Created by ibokan on 13-7-16.
+//  Created by ibokan on 13-7-17.
 //  Copyright (c) 2013年 ibokan. All rights reserved.
 //
 
 #import "DetailViewController.h"
-#import "DetailCell.h"
+#import "DetailView.h"
 @interface DetailViewController ()
 
 @end
@@ -22,19 +22,19 @@
     }
     return self;
 }
-
+-(void)loadView
+{
+    DetailView * dv = [[DetailView alloc]initWithFrame: [UIScreen mainScreen].bounds];
+    self.view = dv;
+    //[dv ]
+    //dv.backgroundColor = [UIColor redColor];
+}
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	
-   
-   
+	// Do any additional setup after loading the view.
 }
--(float )boolLabelLength:(NSString *)strString
-{
-    CGSize labsize = [strString sizeWithFont:[UIFont systemFontOfSize:16] constrainedToSize:CGSizeMake(275, 9999) lineBreakMode:UILineBreakModeCharacterWrap];
-    return labsize.height;
-}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

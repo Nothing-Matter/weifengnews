@@ -7,7 +7,7 @@
 //
 
 #import "DetailCell.h"
-#import "DetailViewController.h"
+//#import "DetailViewController.h"
 
 @implementation DetailCell
 
@@ -16,6 +16,7 @@
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
         // Initialization code
+        [self addToCell];
     }
     return self;
 }
@@ -83,6 +84,9 @@
                                            andTitleColor:[UIColor colorWithRed:51/255.0 green:51/255.0 blue:51/255.0 alpha:1]
                                       andBackgroundColor:[UIColor clearColor]
                                         andTextAlignment:NSTextAlignmentLeft];
+    [self.goodOrBadBlackgound  addSubview:self.goodOrBad];
+    
+    
     
    
     
@@ -98,6 +102,14 @@
 }
 -(void)dealloc
 {
+    [_uesr_head release];
+    [_user_address release];
+    [_user_commentTime release];
+    [_user_commentContent release];
+    [_commentActive release];
+    [_goodOrBad release];
+    [_user_name release];
+    [_goodOrBadBlackgound release];
     [super dealloc];
 }
 @end

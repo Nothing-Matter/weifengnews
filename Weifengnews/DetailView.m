@@ -174,7 +174,7 @@
 {
   
 }
-// 下一天新闻的方法
+// 下一条新闻的方法
 -(void)btnRightAction:(UIButton * )button
 {
  

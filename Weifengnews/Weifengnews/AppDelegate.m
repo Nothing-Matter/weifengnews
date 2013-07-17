@@ -7,8 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "WeifengViewController.h"
 
 #import "ViewController.h"
+
+#import "DetailViewController.h"
 
 @implementation AppDelegate
 
@@ -23,8 +26,30 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
-    self.viewController = [[[ViewController alloc] initWithNibName:@"ViewController" bundle:nil] autorelease];
-    self.window.rootViewController = self.viewController;
+<<<<<<< HEAD
+    
+    //创建主视图控制器
+    WeifengViewController * wf = [[WeifengViewController alloc]init];
+    //创建系统导航栏控制器
+    UINavigationController * nc = [[UINavigationController alloc]initWithRootViewController:wf];
+    //隐藏导航栏
+    nc.navigationBarHidden = YES;
+    //添加为根视图控制器
+    self.window.rootViewController = nc;
+    
+    //释放内存
+    [wf release];
+    [nc release];
+    
+    
+    
+=======
+    //self.viewController = [[[ViewController alloc] initWithNibName:@"ViewController" bundle:nil] autorelease];
+   // self.window.rootViewController = self.viewController;
+    DetailViewController * dvc = [[DetailViewController alloc]init];
+    self.window.rootViewController = dvc;
+    [dvc release];
+>>>>>>> 3facab799573a165433f56912043b33f448cdda0
     [self.window makeKeyAndVisible];
     return YES;
 }
